@@ -1,0 +1,30 @@
+{
+  "name": "block-cat/rich-text",
+  "description": "Modify posibility of 'askvortsov/flarum-rich-text' extension",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^0.1.0-beta.16"
+  },
+  "authors": [{
+    "name": "BlockCat"
+  }],
+  "autoload": {
+    "psr-4": {
+      "BlockCat\\RichText\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "BkC Rich Text",
+      "icon": {
+        "name": "fas fa-pen",
+        "backgroundColor": "#083",
+        "color": "#fff"
+      }
+    }
+  }
+}
